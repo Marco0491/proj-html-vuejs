@@ -14,11 +14,11 @@
                 <div id="logo" class="col-2 text-center">
                     <img src="../assets/images/dark-logo.png" alt="">
                 </div>
-                <div class="col-4">
+                <div class="col-4 text-center">
                     <font-awesome-icon icon="fa-solid fa-cart-shopping"/>
-                    <font-awesome-icon icon="fa-solid fa-circle-user"/>
+                    <font-awesome-icon icon="fa-solid fa-circle-user" class="mx-3"/>
                     <div id="search" class="d-inline position-relative">
-                        <input type="text" placeholder="Search..">
+                        <input type="text" class="rounded" placeholder="Search..">
                         <span class="position-absolute">
                             <font-awesome-icon icon="fa-solid fa-magnifying-glass"/>
                         </span>
@@ -81,13 +81,16 @@ export default {
     }
     div#search {
         input {
+            width: 200px;
             border: transparent;
-            background-color: #e2e2e0;
+            background-color: #f5f5f5;
+            font-size: 0.8rem;
+            padding: 0.5rem 1rem;
         }
         span.position-absolute {
+            font-size: 0.8rem;
             color: #1fad95;
             right: 5%;
-            top: -10%;
             cursor: pointer;
         }
     }
