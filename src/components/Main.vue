@@ -1,6 +1,5 @@
 <template>
     <main>
-        <h1 class="text-warning">main</h1>
     </main>
 </template>
 
