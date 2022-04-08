@@ -1,6 +1,6 @@
 <template>
     <section id="jumbotron" class="position-relative">
-        <img class="img-fluid" src="../assets/images/home-3-hero-bg.jpg" alt="jumbotron background">
+        <img src="../assets/images/home-3-hero-bg.jpg" alt="jumbotron background">
         <div class="jumbotron-text text-center position-absolute">
             <span class="text-capitalize fs-4 fw-bold">commerce business</span>
             <h1 class="text-capitalize mb-4">distant mentoring program</h1>
@@ -37,40 +37,45 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/styles/variables.scss';
 
-    section#jumbotron {
-        height: 60vh;
-        div.jumbotron-text {
-            color: white;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            h1 {
-                font-size: 3rem;
-                font-weight: 200;
-            }
-            button.btn {
-                color: $brand_green;
-                font-size: 0.7rem;
-                background-color: white;
-                padding: 0.5rem 2rem;
-                &:hover {
-                    color: white;
-                    background-color: $brand_green;
-                }
-            }
+section#jumbotron {
+    height: 75vh;
+    margin-bottom: 10rem;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    div.jumbotron-text {
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        h1 {
+            font-size: 3rem;
+            font-weight: 200;
         }
-        div#jumbotron-inputs {
-            color: $brand_gray;
-            font-size: 0.8rem;
+        button.btn {
+            color: $brand_green;
+            font-size: 0.7rem;
             background-color: white;
-            top: 20%;
-            right: 0;
-        }
-        div#jumbotron-inputs > * {
-            cursor: pointer;
+            padding: 0.5rem 2rem;
             &:hover {
-                color: black;
+                color: white;
+                background-color: $brand_green;
             }
         }
     }
+    div#jumbotron-inputs {
+        color: $brand_gray;
+        font-size: 0.8rem;
+        background-color: white;
+        top: 20%;
+        right: 0;
+    }
+    div#jumbotron-inputs > * {
+        cursor: pointer;
+        &:hover {
+            color: black;
+        }
+    }
+}
 </style>

@@ -73,53 +73,59 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/styles/variables.scss';
 
-    nav ul {
-        list-style: none;
-        li a {
-            text-decoration: none;
-            color: $brand_gray;
-            font-size: 0.5rem;
-            span.arrow {
-                font-size: 0.8rem;
-            }
-        }
-    }
-
-    div#logo img {
-        width: 50%;
-    }
-
-    span#shopping-cart,span#user {
-        cursor: pointer;
+nav ul {
+    list-style: none;
+    li a {
+        text-decoration: none;
         color: $brand_gray;
-    }
-
-    span#cart-counter {
-        width: 15px;
-        height: 15px;
-        color: white;
-        text-align: center;
-        line-height: 15px;
         font-size: 0.5rem;
-        background-color: $brand_green;
-        left: 70%;
-        bottom: 70%;
+        span.arrow {
+            font-size: 0.8rem;
+        }
+        &:hover {
+            color: black;
+        }
     }
+}
 
-    div#search {
-        input {
-            width: 200px;
-            border: transparent;
-            background-color: #f5f5f5;
-            font-size: 0.8rem;
-            padding: 0.5rem 1rem;
-        }
-        span.lens {
-            font-size: 0.8rem;
-            color: $brand_green;
-            right: 5%;
-            top: 5%;
-            cursor: pointer;
-        }
+div#logo img {
+    width: 50%;
+}
+
+span#shopping-cart,span#user {
+    cursor: pointer;
+    color: $brand_gray;
+    &:hover {
+        color: black;
     }
+}
+
+span#cart-counter {
+    width: 15px;
+    height: 15px;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    font-size: 0.5rem;
+    background-color: $brand_green;
+    left: 70%;
+    bottom: 70%;
+}
+
+div#search {
+    input {
+        width: 200px;
+        border: transparent;
+        background-color: #f5f5f5;
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+    span.lens {
+        font-size: 0.8rem;
+        color: $brand_green;
+        right: 5%;
+        top: 5%;
+        cursor: pointer;
+    }
+}
 </style>
