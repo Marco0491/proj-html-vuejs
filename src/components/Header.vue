@@ -71,7 +71,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/styles/variables.scss';
+@import '../assets/styles/variables.scss';
 
     nav ul {
         list-style: none;
