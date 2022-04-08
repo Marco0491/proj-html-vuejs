@@ -52,48 +52,42 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/styles/variables.scss';
-
-div.left-col {
+section.container-fluid {
+    margin-bottom: 7rem;
+    div.left-col {
     font-size: 0.8rem;
-}
+    }
 
-div.my_circle {
-    @include orange-circle;
-    transform: translate(-100%, -50%);
-}
+    div.my_circle {
+        @include orange-circle;
+        transform: translate(-100%, -50%);
+    }
 
-div.right-col img:nth-child(1) {
-    z-index: 2;
-}
+    div.right-col img:nth-child(1) {
+        z-index: 2;
+    }
 
-div.right-col img:nth-child(2) {
-    z-index: 3;
-    width: 30%;
-    left: 90%;
-}
+    div.right-col img:nth-child(2) {
+        z-index: 3;
+        width: 30%;
+        left: 90%;
+    }
 
-div.right-col img:nth-child(3) {
-    z-index: 3;
-    width: 20%;
-    top: 80%;
-    left: 65%;
-}
+    div.right-col img:nth-child(3) {
+        z-index: 3;
+        width: 20%;
+        top: 80%;
+        left: 65%;
+    }
 
-div.right-col img:nth-child(4) {
-    z-index: 1;
-    width: 25%;
-    left: 75%;
-}
+    div.right-col img:nth-child(4) {
+        z-index: 1;
+        width: 25%;
+        left: 75%;
+    }
 
-div.bottom-row {
-    font-size: 0.7rem;
-}
-
-.my_green {
-    color: $brand_green;
-}
-
-.my_gray {
-    color: $brand_gray;
+    div.bottom-row {
+        font-size: 0.7rem;
+    }
 }
 </style>
