@@ -19,7 +19,7 @@
                         <p class="text-uppercase fw-light">how we work</p>
                         <h1 class="text-capitalize">upgrade your skills <span class="fw-lighter my_green">upgrade your life</span></h1>
                         <p class="my_gray">Opening up more opportunities in front of you to get the ticket to more enjoyable door in life. Getting equipped with new skills for new sets of insights into your career. MaxCoach accompany learners in every stage of learning.</p>
-                        <a href="#" class="fw-bold">
+                        <a href="#" class="fw-bold text-dark">
                                 Download free guidebook
                                 <font-awesome-icon icon="fa-solid fa-arrow-right-long"/>
                             </a>
@@ -75,9 +75,6 @@ div.right-col {
     font-size: 0.7rem;
     div.my_circle {
         @include orange-circle;
-    }
-    a {
-        color: black;
     }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <section class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="col-12 text-center mb-4">
                 <p class="text-uppercase my_gray">join maxcoach at best</p>
                 <h1 class="text-capitalize">latest online <span class="my_green fw-lighter">courses</span></h1>
@@ -31,7 +31,7 @@
                     <div class="col-5 text-center">
                         <p class="my_gray">
                             Control your personal preference settings to get notified about appropriate courses. 
-                            <a href="#">
+                            <a href="#" class="text-dark">
                                 View all courses 
                                 <font-awesome-icon icon="fa-solid fa-arrow-right-long"/>
                             </a>
@@ -97,6 +97,9 @@ name: 'CoursesSection',
             font-size: 0.7rem;
             color: $brand_gray;
         }
+        &:hover {
+            box-shadow: 10px 5px 5px rgba(0,0,0,0.2);
+        }
     }
     div#pointer span {
         width: 7px;
@@ -110,8 +113,5 @@ name: 'CoursesSection',
             background-color: black;
             filter: opacity(0.7);
         }
-    }
-    a {
-        color: black;
     }
 </style>
