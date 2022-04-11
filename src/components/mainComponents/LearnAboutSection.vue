@@ -52,6 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../assets/styles/variables.scss';
+
 section.container-fluid {
     margin-bottom: 7rem;
     div.left-col {

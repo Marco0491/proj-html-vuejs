@@ -1,5 +1,5 @@
 <template>
-    <section class="container-fluid mb-5">
+    <section class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-8">
                 <div class="row">
@@ -39,9 +39,18 @@ export default {
 <style lang='scss' scoped>
 @import '../../assets/styles/variables.scss';
 
+section {
+    margin-bottom: 7rem;
+}
+
 div.video-preview {
     width: 100%;
     z-index: 3;
+}
+
+div.video-preview img:nth-child(2) {
+    width: 15%;
+    cursor: pointer;
 }
 
 img.first-shape {
